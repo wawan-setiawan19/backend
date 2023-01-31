@@ -30,3 +30,5 @@ app.use('/lulus', lulusRouter)
 app.listen(PORT, () => {
     console.log(`Server run on ${PORT}`);
 })
+
+export default app
